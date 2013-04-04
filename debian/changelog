@@ -1,3 +1,9 @@
+vte3 (1:0.34.2-1blankon2) suroboyo; urgency=low
+
+  * Rebuild for libc6 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Thu, 04 Apr 2013 10:43:09 +0700
+
 vte3 (1:0.34.2-1blankon1) suroboyo; urgency=low
 
   * New upstream release
