@@ -1,8 +1,7 @@
 Source: vte3
 Section: libs
 Priority: optional
-Maintainer: BlankOn Developers <blankon-dev@googlegrops.com>
-XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
 Standards-Version: 3.9.3
 Build-Depends: cdbs (>= 0.4.90),
