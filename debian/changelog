@@ -1,3 +1,22 @@
+vte3 (1:0.35.2-1.1) tambora; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Sun, 23 Mar 2014 21:29:54 +0700
+
+vte3 (1:0.35.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Make debian/patches/01_scroll_notebook.patch apply again.
+  * Drop debian/patches/03_scroll_region_updates.patch, applied upstream.
+  * Have quilt refresh the following patches:
+    - debian/patches/04_workaround_resources_compiler_path.patch
+    - debian/patches/25_optional-ncurses.patch
+    - debian/patches/60_termcap-home-end.patch
+  * Add two new symbols to debian/libvte-2.90-9.symbols
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 24 Feb 2014 20:28:46 +0100
+
 vte3 (1:0.34.5-1blankon1) suroboyo; urgency=low
 
   * New upstream release

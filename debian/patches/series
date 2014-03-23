@@ -1,5 +1,4 @@
 01_scroll_notebook.patch
-03_scroll_region_updates.patch
 04_workaround_resources_compiler_path.patch
 25_optional-ncurses.patch
 60_termcap-home-end.patch

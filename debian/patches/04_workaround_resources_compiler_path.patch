@@ -1,11 +1,9 @@
 Description: Drop --sourcedir from glib-compile-resources call. It is not necessary here, and breaks out-of-tree builds with absolute configure paths, such as cdbs does.
 Bug: https://bugzilla.gnome.org/show_bug.cgi?id=672541
 
-Index: vte3-exp/src/Makefile.am 
-===================================================================
---- vte3-exp.orig/src/Makefile.am	2012-03-10 16:55:12.000000000 +0100
-+++ vte3-exp/src/Makefile.am	2012-03-21 13:01:21.900076144 +0100
-@@ -152,7 +152,7 @@
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -154,7 +154,7 @@
  	mv -f $@.tmp $@
  
  vteresources.c: vte.gresource.xml Makefile $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies vte.gresource.xml)

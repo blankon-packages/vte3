@@ -4,11 +4,9 @@ notebook. This patch prevents vte from interecepting the signal.
 
 Corresponding GTK+ bug: GNOME #145244
 
-Index: vte-0.32.2/src/vte.c
-===================================================================
---- vte-0.32.2.orig/src/vte.c	2012-05-29 19:44:17.000000000 +0200
-+++ vte-0.32.2/src/vte.c	2012-06-01 01:13:26.527472012 +0200
-@@ -11387,6 +11387,13 @@
+--- a/src/vte.c
++++ b/src/vte.c
+@@ -11527,6 +11527,13 @@
  
  	vte_terminal_read_modifiers (terminal, (GdkEvent*) event);
  
@@ -19,6 +17,6 @@ Index: vte-0.32.2/src/vte.c
 +		return FALSE;
 +#endif
 +
- 	_VTE_DEBUG_IF(VTE_DEBUG_EVENTS)
- 		switch (event->direction) {
- 		case GDK_SCROLL_UP:
+ 	switch (event->direction) {
+ 	case GDK_SCROLL_UP:
+ 		terminal->pvt->mouse_smooth_scroll_delta -= 1.;

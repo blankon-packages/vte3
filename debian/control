@@ -7,8 +7,8 @@ Source: vte3
 Section: libs
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>
-Standards-Version: 3.9.3
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Michael Biebl <biebl@debian.org>
+Standards-Version: 3.9.4
 Build-Depends: cdbs (>= 0.4.90),
                debhelper (>= 8),
                gnome-pkg-tools (>= 0.10),
@@ -26,7 +26,7 @@ Build-Depends: cdbs (>= 0.4.90),
                libgladeui-dev,
                intltool (>= 0.35)
 Build-Depends-Indep: libglib2.0-doc, libgtk-3-doc, libatk1.0-doc
-Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/vte3
+Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/vte3
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/vte3
 
 Package: libvte-2.90-9
@@ -44,7 +44,7 @@ Description: Terminal emulator widget for GTK+ 3.0 - runtime files
  VTE widget with GTK+ 3.0.
 
 Package: libvte-2.90-9-udeb
-XC-Package-Type: udeb
+Package-Type: udeb
 Section: debian-installer
 Priority: extra
 Architecture: any
