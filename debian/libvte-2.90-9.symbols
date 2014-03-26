@@ -118,6 +118,8 @@ libvte2_90.so.9 libvte-2.90-9 #MINVER#
  vte_terminal_set_color_foreground@Base 1:0.27.2
  vte_terminal_set_color_foreground_rgba@Base 1:0.27.90
  vte_terminal_set_color_highlight@Base 1:0.27.2
+ vte_terminal_set_color_highlight_foreground@Base 1:0.36.0
+ vte_terminal_set_color_highlight_foreground_rgba@Base 1:0.36.0
  vte_terminal_set_color_highlight_rgba@Base 1:0.27.90
  vte_terminal_set_colors@Base 1:0.27.2
  vte_terminal_set_colors_rgba@Base 1:0.27.90

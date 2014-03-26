@@ -1,3 +1,16 @@
+vte3 (1:0.36.0-1blankon1) tambora; urgency=low
+
+  * New upstream release
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 26 Mar 2014 23:02:43 +0700
+
+vte3 (1:0.36.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/libvte-2.90-9.symbols with added symbols.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 24 Mar 2014 20:32:44 +0100
+
 vte3 (1:0.35.2-1blankon1) tambora; urgency=low
 
   * New upstream release.
